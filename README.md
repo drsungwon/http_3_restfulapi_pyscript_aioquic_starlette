@@ -54,6 +54,9 @@ DELETE 결과를 웹브라우저 화면과 서버 출력 화면에서 확인함
 
 Client를 실행하기 위해서, 실행한 Python http.server를 ctrl-c 키보드 입력으로 종료함
 
+Poetry 실행을 중지함<br />
+> exit
+
 <br />
 <br />
 
