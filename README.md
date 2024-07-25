@@ -2,7 +2,7 @@
 
 Server : Python (DIY ASGI Server + Starlette Application)
 
-Client : Web Browser (PyScript : Python in HTML)
+Client : Web Browser (PyScript : Python in HTML, Pico.css)
 
 Networking : HTTP/3 (QUIC)
 
