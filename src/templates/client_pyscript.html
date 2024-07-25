@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTTP/1.1 RESTful API Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- picocss -->
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
+  <!-- pyscript -->
+  <script type="module" src="https://pyscript.net/releases/2024.3.2/core.js"></script>
+  <!-- axios -->
+  <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>    
+    <main class="container">
+        <section id="header">
+            <h1> HTTP RESTful API Example </h1>
+            <nav>
+                <ul>
+                <li><h4><strong id="program_status_1">Please wait, program is starting ...</strong></h4></li>
+                </ul>
+                <ul>
+                <li><a role="button" class="outline secondary" id="program_status_2">Initializing</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="create">
+            <form>
+              <div class="grid">
+                <input
+                  type="text"
+                  name="key"
+                  placeholder="Key"
+                  aria-label="Key"
+                  required
+                  id="key_create"
+                />
+                <input
+                  type="text"
+                  name="value"
+                  placeholder="Value"
+                  aria-label="Value"
+                  required
+                  id="value_create"
+                />
+                <button 
+                  type="button" 
+                  id="submit_create">CREATE
+                </button>
+              </div>
+            </form>
+            <form>
+              <div class="grid">
+                <input
+                  type="text"
+                  name="key"
+                  placeholder="Key"
+                  aria-label="Key"
+                  required
+                  id="key_read"
+                />
+                <input
+                  type="text"
+                  name="value"
+                  placeholder="{ not required }"
+                  aria-label="Disabled input"
+                  disabled
+                />
+                <button 
+                  type="button" 
+                  id="submit_read">READ 
+                </button>
+              </div>
+            </form>
+            <form>
+              <div class="grid">
+                <input
+                  type="text"
+                  name="key"
+                  placeholder="Key"
+                  aria-label="Key"
+                  required
+                  id="key_update"
+                />
+                <input
+                  type="text"
+                  name="value"
+                  placeholder="Value"
+                  aria-label="Value"
+                  required
+                  id="value_update"
+                />
+                <button 
+                  type="button" 
+                  id="submit_update">UPDATE
+                </button>
+              </div>
+            </form>
+            <form>
+              <div class="grid">
+                <input
+                  type="text"
+                  name="key"
+                  placeholder="Key"
+                  aria-label="Key"
+                  required
+                  id="key_delete"
+                />
+                <input
+                  type="text"
+                  name="value"
+                  placeholder="{ not required }"
+                  aria-label="Disabled input"
+                  disabled
+                />
+                <button 
+                  type="button" 
+                  id="submit_delete">DELETE
+                </button>
+              </div>
+            </form>
+        </section>
+
+        <blockquote > 
+            <p id="out_request"> HTTP Request sent &#128073 &#128073 &#128073 </p>
+            <p id="out_response"> HTTP Response received &#128072 &#128072 &#128072 </p>
+        </blockquote>
+    </main>
+
+    <script type="py" src="wasm/client_main.py" async> 
+    </script>
+
+
+</body>
+
+</html>
