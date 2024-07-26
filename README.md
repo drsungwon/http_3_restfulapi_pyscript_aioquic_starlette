@@ -13,7 +13,8 @@ Packaging : Poetry (추가 패키지: aioquic, starlette, pyscript)
 
 <h2>Overall Architecture</h2>	
 
-![WSGI/ASGI Architecture.]([https://derlin.github.io/introduction-to-fastapi-and-celery/assets/01-wsgi.excalidraw.png])
+![WSGI/ASGI Architecture.](https://derlin.github.io/introduction-to-fastapi-and-celery/assets/01-wsgi.excalidraw.png)
+
 (출처: https://derlin.github.io/introduction-to-fastapi-and-celery/02-fastapi/)
 
 <br />
