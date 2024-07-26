@@ -11,6 +11,13 @@ Packaging : Poetry (추가 패키지: aioquic, starlette, pyscript)
 <br />
 <br />
 
+<h2>Architecture</h2>	
+
+![WSGI/ASGI Architecture.]([https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif](https://derlin.github.io/introduction-to-fastapi-and-celery/assets/01-wsgi.excalidraw.png))
+
+<br />
+<br />
+
 <h2>실행 방법</h2>	
 
 프로젝트를 다운로드 함
