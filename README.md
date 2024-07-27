@@ -36,6 +36,8 @@ src/server.py를 실행함<br />
 Chrome browser를 HTTP/3 모드로 강제 실햄함<br />
 > macOS 경우:
 >> sudo /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --enable-quic --allow-insecure-localhost --origin-to-force-quic-on=127.0.0.1:4433 --ignore-certificate-errors-spki-list="Vy/mwFlqWXlxva7JH2xXR0bShco74LOb7xG1dFlZlrA="
+> Linux 경우:
+>> google-chrome --enable-quic --allow-insecure-localhost --origin-to-force-quic-on=127.0.0.1:4433 --ignore-certificate-errors-spki-list="Vy/mwFlqWXlxva7JH2xXR0bShco74LOb7xG1dFlZlrA="
 
 Chrome browser로 서버에 접속함<br />
 > https://127.0.0.1:4433
