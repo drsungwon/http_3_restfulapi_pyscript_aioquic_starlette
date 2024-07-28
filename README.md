@@ -20,7 +20,14 @@ Packaging : Poetry (추가 패키지: aioquic, starlette, pyscript)
 <br />
 <br />
 
-<h2>실행 방법</h2>	
+<h2>실행 방법</h2>		
+
+> NOTE<br />
+>> macOS & Linux : 제한 사항 없음<br />
+>> MS Windows : <br />
+>>> Server : WSL2 사용을 권장함<br />
+>>> Client : Chrome 브라우저를 WSL2에 설치하고 실행함 <br />
+>>>> https://learn.microsoft.com/ko-kr/windows/wsl/tutorials/gui-apps
 
 프로젝트를 다운로드 함
 
